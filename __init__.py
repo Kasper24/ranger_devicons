@@ -3,7 +3,7 @@ import ranger.api
 from ranger.core.linemode import LinemodeBase
 from .devicons import *
 
-SEPARATOR = os.getenv('RANGER_DEVICONS_SEPARATOR', ' ')
+SEPARATOR = os.getenv('RANGER_DEVICONS_SEPARATOR', '  ')
 
 @ranger.api.register_linemode
 class DevIconsLinemode(LinemodeBase):
